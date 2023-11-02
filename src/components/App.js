@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Login from "./Login";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar"; 
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -27,3 +27,4 @@ function App() {
 }
 
 export default App;
+
